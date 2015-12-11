@@ -1,0 +1,23 @@
+{
+  "name": "nl-stream",
+  "version": "1.0.0",
+  "description": "A stream returning one event per line",
+  "main": "lines.js",
+  "scripts": {
+    "test": "test \"$(printf 'hello\\nworld\\n' | node test.js)\" = 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvertes/nl-stream.git"
+  },
+  "keywords": [
+    "line",
+    "stream"
+  ],
+  "author": "Marc Vertes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvertes/nl-stream/issues"
+  },
+  "homepage": "https://github.com/mvertes/nl-stream#readme"
+}
